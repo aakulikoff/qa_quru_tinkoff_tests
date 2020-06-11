@@ -17,9 +17,7 @@ public class TinkoffCliclDepositeTests {
 
         open("https://www.tinkoff.ru/");
         $$(byText("Вклады")).find(visible).parent().click();
-
     }
-
 
 
     }
